@@ -51,5 +51,12 @@ namespace AtmTests
             Assert.Equal(8000.0m, atm.Balance);
             Assert.Equal("ATM_ERR", result.FailureMessage);
         }
+
+        [Fact]
+        public void TestBuild()
+        {
+            Assert.Equal(1, 2);
+        }
+
     }
 }
