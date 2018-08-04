@@ -55,6 +55,7 @@ namespace AtmTests
         [Fact]
         public void TestBuild()
         {
+            Assert.Equal(1, 1);
             Assert.Equal(1, 2);
         }
 
